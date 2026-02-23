@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,600;0,700;1,300&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+    --ink: #1A1A1A;
+    --ink-soft: #4A4A4A;
+    --ink-dim: #9A9A9A;
+    --paper: #F8F6F2;
+    --paper-2: #EFEDE8;
+    --paper-3: #E5E2DB;
+    --accent: #2D6A4F;
+    --accent-2: #40916C;
+    --accent-lt: #D8F3DC;
+    --warm: #B7894A;
+    --warm-lt: #FFF8E1;
+    --border: #D9D5CE;
+    --white: #FFFFFF;
+}
+
+body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.font-display {
+    font-family: 'Fraunces', serif;
+}
